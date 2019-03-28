@@ -1,3 +1,8 @@
+variable "name" {
+  type        = "string"
+  description = "Subnet name to create on AWS"
+}
+
 variable "route_table_id" {
   type        = "string"
   description = "Subnet name to create on AWS"
