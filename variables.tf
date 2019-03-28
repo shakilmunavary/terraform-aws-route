@@ -8,7 +8,7 @@ variable "destination_cidr_block" {
   description = "Subnet name to create on AWS"
 }
 
-variable "var.gateway_id" {
+variable "gateway_id" {
   type        = "string"
   description = "Subnet name to create on AWS"
 }
